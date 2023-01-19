@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.sendStatus(200)
 })
 
-const port =  process.env.PORT || 3001;
+let port =  process.env.PORT || 3001;
 
 const io = new Server(server, {
   cors: {
