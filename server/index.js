@@ -31,3 +31,7 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => {
   });
 });
+
+server.listen(3001, () => {
+  console.log("Server Running")
+})
