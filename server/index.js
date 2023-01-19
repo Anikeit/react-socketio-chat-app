@@ -32,6 +32,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3001, () => {
+server.listen("https://master--classy-liger-d9aa45.netlify.app/", () => {
   console.log("Server Running")
 })
