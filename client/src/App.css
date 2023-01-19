@@ -102,7 +102,7 @@ body {
   height: auto;
   min-height: 40px;
   max-width: 120px;
-  background-color: #43a047;
+  background-color: #C33764;
   border-radius: 5px;
   color: white;
   display: flex;
@@ -134,7 +134,7 @@ body {
 
 #other .message-content {
   justify-content: flex-end;
-  background-color: cornflowerblue;
+  background-color: #11998E ;
 }
 
 #other .message-meta {
@@ -145,6 +145,7 @@ body {
 .message-meta #author {
   margin-left: 10px;
   font-weight: bold;
+  font-style: italic;
 }
 
 .chat-window .chat-body .message .message-meta {
