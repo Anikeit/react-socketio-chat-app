@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://63c8e1c6d4d03c299c73472f--classy-liger-d9aa45.netlify.app/",
+    origin: "https://master--classy-liger-d9aa45.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
