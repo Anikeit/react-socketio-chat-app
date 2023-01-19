@@ -11,6 +11,8 @@ app.get('/', (req, res) => {
   res.sendStatus(200)
 })
 
+const port =  process.env.PORT || 3001;
+
 const io = new Server(server, {
   cors: {
     origin: "https://master--classy-liger-d9aa45.netlify.app/",
@@ -32,6 +34,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen("https://master--classy-liger-d9aa45.netlify.app/", () => {
-  console.log("Server Running")
+server.listen(port, () => {
+  console.log("Server is Running on",port)
 })
